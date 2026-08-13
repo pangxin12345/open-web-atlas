@@ -66,16 +66,16 @@ const NEWS_I={zh_cn:['加密资讯','专业媒体与二手信源；重要消息�
 for(const [key,[category,description]] of Object.entries(NEWS_I)){I[key].cats.push(category);I[key].desc.push(description)}
 const E=['🌐','🤖','💻','🎨','⚡','📚','🔎','✨','🛡️','🧩','🎬','📺','🎮','📈','🛰️'];
 const V={
-zh_cn:{use:'🧭 干什么用',review:'💬 我们的评价',status:'📡 是否可用',checked:'检查于',levels:['⭐ 长期推荐','👍 值得一试','🎯 特定场景'],states:['✅ 可访问','⚠️ 访问异常','❔ 待复核']},
-en:{use:'🧭 Best for',review:'💬 Our take',status:'📡 Availability',checked:'checked',levels:['⭐ Long-term pick','👍 Worth trying','🎯 Niche use'],states:['✅ Reachable','⚠️ Access issue','❔ Needs review']},
-es:{use:'🧭 Para qué sirve',review:'💬 Nuestra opinión',status:'📡 Disponibilidad',checked:'revisado',levels:['⭐ Recomendado','👍 Vale la pena','🎯 Uso específico'],states:['✅ Accesible','⚠️ Problema de acceso','❔ Por revisar']},
-pt:{use:'🧭 Para que serve',review:'💬 Nossa avaliação',status:'📡 Disponibilidade',checked:'verificado',levels:['⭐ Recomendado','👍 Vale testar','🎯 Uso específico'],states:['✅ Acessível','⚠️ Problema de acesso','❔ Revisar']},
-de:{use:'🧭 Wofür geeignet',review:'💬 Unsere Bewertung',status:'📡 Verfügbarkeit',checked:'geprüft',levels:['⭐ Dauerempfehlung','👍 Ausprobieren','🎯 Spezialfall'],states:['✅ Erreichbar','⚠️ Zugriffsproblem','❔ Zu prüfen']},
-fr:{use:'🧭 Usage idéal',review:'💬 Notre avis',status:'📡 Disponibilité',checked:'vérifié',levels:['⭐ Recommandé','👍 À essayer','🎯 Usage ciblé'],states:['✅ Accessible','⚠️ Problème d’accès','❔ À vérifier']},
-ja:{use:'🧭 主な用途',review:'💬 評価',status:'📡 利用状況',checked:'確認日',levels:['⭐ 長期おすすめ','👍 試す価値あり','🎯 特定用途向け'],states:['✅ アクセス可能','⚠️ アクセス異常','❔ 要確認']},
-ko:{use:'🧭 주요 용도',review:'💬 평가',status:'📡 사용 가능 여부',checked:'확인일',levels:['⭐ 장기 추천','👍 사용해 볼 만함','🎯 특정 용도'],states:['✅ 접속 가능','⚠️ 접속 문제','❔ 검토 필요']},
-id:{use:'🧭 Kegunaan',review:'💬 Penilaian kami',status:'📡 Ketersediaan',checked:'diperiksa',levels:['⭐ Rekomendasi utama','👍 Layak dicoba','🎯 Kebutuhan khusus'],states:['✅ Dapat diakses','⚠️ Masalah akses','❔ Perlu ditinjau']},
-vi:{use:'🧭 Dùng để làm gì',review:'💬 Đánh giá',status:'📡 Khả dụng',checked:'đã kiểm tra',levels:['⭐ Khuyên dùng lâu dài','👍 Đáng thử','🎯 Nhu cầu cụ thể'],states:['✅ Truy cập được','⚠️ Lỗi truy cập','❔ Cần xem lại']}}
+zh_cn:{use:'🧭 干什么用',review:'💬 我们的评价',status:'📡 是否可用',checked:'检查于',levels:['⭐ 长期推荐','👍 值得一试','🎯 特定场景'],states:['✅ 能打开','⚠️ 暂时打不开','🛡️ 自动检测受限，请直接打开']},
+en:{use:'🧭 Best for',review:'💬 Our take',status:'📡 Availability',checked:'checked',levels:['⭐ Long-term pick','👍 Worth trying','🎯 Niche use'],states:['✅ Opens','⚠️ Temporarily unavailable','🛡️ Automated check limited; open directly']},
+es:{use:'🧭 Para qué sirve',review:'💬 Nuestra opinión',status:'📡 Disponibilidad',checked:'revisado',levels:['⭐ Recomendado','👍 Vale la pena','🎯 Uso específico'],states:['✅ Se abre','⚠️ No disponible temporalmente','🛡️ Comprobación limitada; abrir directamente']},
+pt:{use:'🧭 Para que serve',review:'💬 Nossa avaliação',status:'📡 Disponibilidade',checked:'verificado',levels:['⭐ Recomendado','👍 Vale testar','🎯 Uso específico'],states:['✅ Abre','⚠️ Indisponível temporariamente','🛡️ Verificação limitada; abra diretamente']},
+de:{use:'🧭 Wofür geeignet',review:'💬 Unsere Bewertung',status:'📡 Verfügbarkeit',checked:'geprüft',levels:['⭐ Dauerempfehlung','👍 Ausprobieren','🎯 Spezialfall'],states:['✅ Öffnet','⚠️ Vorübergehend nicht erreichbar','🛡️ Automatische Prüfung begrenzt; direkt öffnen']},
+fr:{use:'🧭 Usage idéal',review:'💬 Notre avis',status:'📡 Disponibilité',checked:'vérifié',levels:['⭐ Recommandé','👍 À essayer','🎯 Usage ciblé'],states:['✅ S’ouvre','⚠️ Indisponible temporairement','🛡️ Vérification limitée ; ouvrir directement']},
+ja:{use:'🧭 主な用途',review:'💬 評価',status:'📡 利用状況',checked:'確認日',levels:['⭐ 長期おすすめ','👍 試す価値あり','🎯 特定用途向け'],states:['✅ 開けます','⚠️ 一時的に開けません','🛡️ 自動確認制限あり・直接開いてください']},
+ko:{use:'🧭 주요 용도',review:'💬 평가',status:'📡 사용 가능 여부',checked:'확인일',levels:['⭐ 장기 추천','👍 사용해 볼 만함','🎯 특정 용도'],states:['✅ 열림','⚠️ 일시적으로 열리지 않음','🛡️ 자동 확인 제한됨·직접 열어 보세요']},
+id:{use:'🧭 Kegunaan',review:'💬 Penilaian kami',status:'📡 Ketersediaan',checked:'diperiksa',levels:['⭐ Rekomendasi utama','👍 Layak dicoba','🎯 Kebutuhan khusus'],states:['✅ Bisa dibuka','⚠️ Sementara tidak tersedia','🛡️ Pemeriksaan otomatis terbatas; buka langsung']},
+vi:{use:'🧭 Dùng để làm gì',review:'💬 Đánh giá',status:'📡 Khả dụng',checked:'đã kiểm tra',levels:['⭐ Khuyên dùng lâu dài','👍 Đáng thử','🎯 Nhu cầu cụ thể'],states:['✅ Mở được','⚠️ Tạm thời không mở được','🛡️ Kiểm tra tự động bị hạn chế; hãy mở trực tiếp']}}
 const STAR=new Set(['Once Email','ChatGPT','Claude','Gemini','Perplexity','DeepSeek','GitHub','MDN Web Docs','Figma','Notion','Wikipedia','Internet Archive','Project Gutenberg','Google','DuckDuckGo','Wolfram Alpha','Google Scholar','AlternativeTo','Unsplash','Photopea','OBS Studio','Have I Been Pwned','Bitwarden','VirusTotal','Privacy Guides','Brave','VS Code','Linux','Blender','VLC','IMDb','TMDB','JustWatch Movies','Steam','GOG','VNDB','GitHub Copilot','Cursor','Runway','NotebookLM','Microsoft Qlib','LEAN','VeighNa','AKShare']);
 const NICHE=new Set(['Character.AI','Coze','Meta AI','Tabnine','Blackbox AI','Midjourney','Leonardo.Ai','Pika','Cobalt','Privnote','trace.moe','MUBI','TVmaze','Backloggd','JAST USA','MangaGamer','DLsite','Sekai Project']);
 const ratingOf=name=>STAR.has(name)?0:NICHE.has(name)?2:1;
