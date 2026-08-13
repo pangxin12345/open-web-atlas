@@ -87,6 +87,8 @@
 | [edX](https://www.edx.org) | 高校在线课程 |
 | [arXiv](https://arxiv.org) | 开放学术预印本 |
 | [Internet Archive](https://archive.org) | 数字内容存档 |
+| [Project Gutenberg](https://www.gutenberg.org) | 免费阅读和下载公共领域电子书 |
+| [Radio Garden](https://radio.garden) | 通过地球仪探索世界各地直播电台 |
 
 ### 搜索
 
@@ -98,6 +100,9 @@
 | [Wolfram Alpha](https://www.wolframalpha.com) | 计算知识引擎 |
 | [Google Scholar](https://scholar.google.com) | 学术资料搜索 |
 | [GitHub Search](https://github.com/search) | 代码与项目搜索 |
+| [AlternativeTo](https://alternativeto.net) | 根据社区评价寻找软件替代方案 |
+| [Flightradar24](https://www.flightradar24.com) | 查询实时航班位置和飞行信息 |
+| [trace.moe](https://trace.moe) | 用动画截图反查作品与出现时间 |
 
 ### 创作
 
@@ -109,6 +114,9 @@
 | [Remove.bg](https://www.remove.bg) | 图片背景移除 |
 | [Descript](https://www.descript.com) | 音视频编辑 |
 | [OBS Studio](https://obsproject.com) | 录屏与直播制作 |
+| [Cobalt](https://cobalt.tools) | 简洁的媒体保存工具；仅应用于自己拥有或获授权的内容 |
+| [Cleanup.pictures](https://cleanup.pictures) | 快速移除图片中的物体、人物或瑕疵 |
+| [TinyWow](https://tinywow.com) | 聚合 PDF、图片、视频和写作小工具 |
 
 ### 隐私与安全
 
@@ -120,6 +128,8 @@
 | [Proton Mail](https://proton.me/mail) | 注重隐私的电子邮箱 |
 | [VirusTotal](https://www.virustotal.com) | 文件与网址安全分析 |
 | [Privacy Guides](https://www.privacyguides.org) | 隐私工具与实践指南 |
+| [Privnote](https://privnote.com) | 创建阅读后销毁的一次性文本便笺 |
+| [Brave](https://brave.com) | 默认拦截常见追踪器的开源浏览器 |
 
 ### 开源项目
 
@@ -198,7 +208,7 @@
 ## 项目元数据
 
 - 类型：单文件静态网站导航
-- 收录数量：79
+- 收录数量：89
 - 分类数量：12
 - 界面语言：中文、English、Español、Português、Deutsch、Français、日本語、한국어、Indonesia、Tiếng Việt
 - 运行环境：任意现代浏览器
