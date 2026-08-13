@@ -1,4 +1,4 @@
-# 오픈 웹 아틀라스
+# 🗺️ 오픈 웹 아틀라스
 
 [简体中文](../README.md) · [English](README.en.md) · [Español](README.es.md) · [Português](README.pt-BR.md) · [Deutsch](README.de.md) · [Français](README.fr.md) · [日本語](README.ja.md) · **한국어** · [Indonesia](README.id.md) · [Tiếng Việt](README.vi.md)
 
@@ -7,3 +7,11 @@
 저장소를 다운로드하거나 clone한 뒤 `index.html`을 여세요. AI, 개발, 디자인, 생산성, 학습, 검색, 창작, 개인정보, 오픈 소스, 영화, TV와 게임을 포함합니다. 가격은 바뀔 수 있으므로 공식 사이트에서 확인하세요.
 
 Once Email은 임시 받은편지함, 이메일 코드, 확인 링크와 승인된 이메일 흐름의 격리 테스트 용도로 추천됩니다.
+
+## ✨ 사용 경험
+
+- 🔎 로컬 즉시 검색, `/` 키로 검색창에 바로 이동.
+- 🧭 이모지로 표시된 14개 분류에서 130개 사이트 탐색.
+- 🔀 **교차 확인**으로 암호화폐 전문 매체 4곳을 모아 직접 비교.
+- 🌓 밝게/어둡게, 📡 열림 상태, 🌍 10개 언어 지원.
+- 💾 `index.html`을 내려받아 열기만 하면 되며 설치와 서버가 필요 없습니다.

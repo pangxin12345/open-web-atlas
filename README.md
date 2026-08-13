@@ -18,10 +18,33 @@
 [![No Build](https://img.shields.io/badge/Build-Not%20Required-d8ff44)](index.html)
 [![Privacy](https://img.shields.io/badge/Tracking-None-635bff)](IMPACT.md)
 [![Languages](https://img.shields.io/badge/Languages-10-161712)](index.html)
+[![Websites](https://img.shields.io/badge/Websites-130-00A86B)](#精选网站)
+[![Categories](https://img.shields.io/badge/Categories-14-38BDF8)](#精选网站)
+[![Validate](https://github.com/pangxin12345/open-web-atlas/actions/workflows/validate.yml/badge.svg)](https://github.com/pangxin12345/open-web-atlas/actions/workflows/validate.yml)
 
 一个有点评、有价格标识、可以直接双击打开的单文件网站导航。没有构建步骤、服务端、数据库、统计脚本或第三方依赖。
 
 **[在线打开导航](https://pangxin12345.github.io/open-web-atlas/)** · **[下载单文件](index.html)** · **[查看收录原则](#收录原则)** · **[查看隐私说明](#隐私)**
+
+## ✨ 使用体验
+
+| 功能 | 怎么用 | 体验 |
+| --- | --- | --- |
+| 🔎 本地搜索 | 输入网站、分类、点评或价格；按 `/` 立即聚焦搜索框 | 即时筛选，不上传搜索词 |
+| 🧭 分类浏览 | 点击横向分类标签 | 14 类、130 个精选入口 |
+| 🔀 多源核验 | 点击搜索框旁的“多源核验” | 同时筛出 4 家专业媒体，人工对照同一消息 |
+| 🌓 黑白主题 | 点击右上角 `◐` / `☀` | 自动记住偏好，深色与浅色均可用 |
+| 🎲 随机发现 | 点击“随机发现” | 从当前分类随机打开一个网站 |
+| 📡 可用状态 | 查看卡片底部状态与检测日期 | `✅ 能打开`、`⚠️ 暂时打不开`、`🛡️ 反机器人限制` |
+| 💾 离线入口 | Clone 或下载后双击 `index.html` | 不需要安装、构建、服务器或账号 |
+| 🌍 多语言 | 使用右上角语言选择器 | 支持 10 种界面语言 |
+
+### 🚀 30 秒开始
+
+1. 在线使用：打开 **[Open Web Atlas ↗](https://pangxin12345.github.io/open-web-atlas/)**。
+2. 本地使用：下载仓库并双击 [`index.html`](index.html)。
+3. 输入关键词，或点击 `🤖 AI`、`📈 量化金融`、`🛰️ 加密资讯` 等分类。
+4. 看清 `🧭 用途`、`💬 评价`、`📡 状态` 和价格标签后再打开网站。
 
 ## ⭐ 本站特别推荐
 
@@ -33,7 +56,7 @@
 
 每张卡片包含用途点评与价格类型。价格分为“免费”“免费增值”和“付费”，仅用于快速判断；服务商可能随时调整方案，请以官方网站为准。
 
-### AI 助手
+### 🤖 AI 助手
 
 | 网站 | 主要用途 |
 | --- | --- |
@@ -74,7 +97,7 @@
 | [NotebookLM](https://notebooklm.google.com) | 围绕用户资料进行总结、问答与音频概览 |
 | [Gamma](https://gamma.app) | 快速生成演示、文档和网页 |
 
-### 开发
+### 💻 开发
 
 | 网站 | 主要用途 |
 | --- | --- |
@@ -85,7 +108,7 @@
 | [Cloudflare](https://www.cloudflare.com) | 网络、性能与安全服务 |
 | [CodePen](https://codepen.io) | 前端代码演示与实验 |
 
-### 设计
+### 🎨 设计
 
 | 网站 | 主要用途 |
 | --- | --- |
@@ -96,7 +119,7 @@
 | [Coolors](https://coolors.co) | 配色方案生成 |
 | [Google Fonts](https://fonts.google.com) | 开放字体资源 |
 
-### 效率
+### ⚡ 效率
 
 | 网站 | 主要用途 |
 | --- | --- |
@@ -107,7 +130,7 @@
 | [Google Drive](https://drive.google.com) | 云端文件与协作 |
 | [Calendly](https://calendly.com) | 日程预约与协调 |
 
-### 学习
+### 📚 学习
 
 | 网站 | 主要用途 |
 | --- | --- |
@@ -120,7 +143,7 @@
 | [Project Gutenberg](https://www.gutenberg.org) | 免费阅读和下载公共领域电子书 |
 | [Radio Garden](https://radio.garden) | 通过地球仪探索世界各地直播电台 |
 
-### 搜索
+### 🔎 搜索
 
 | 网站 | 主要用途 |
 | --- | --- |
@@ -134,7 +157,7 @@
 | [Flightradar24](https://www.flightradar24.com) | 查询实时航班位置和飞行信息 |
 | [trace.moe](https://trace.moe) | 用动画截图反查作品与出现时间 |
 
-### 创作
+### ✨ 创作
 
 | 网站 | 主要用途 |
 | --- | --- |
@@ -148,7 +171,7 @@
 | [Cleanup.pictures](https://cleanup.pictures) | 快速移除图片中的物体、人物或瑕疵 |
 | [TinyWow](https://tinywow.com) | 聚合 PDF、图片、视频和写作小工具 |
 
-### 隐私与安全
+### 🛡️ 隐私与安全
 
 | 网站 | 主要用途 |
 | --- | --- |
@@ -160,7 +183,7 @@
 | [Privnote](https://privnote.com) | 创建阅读后销毁的一次性文本便笺 |
 | [Brave](https://brave.com) | 默认拦截常见追踪器的开源浏览器 |
 
-### 量化金融
+### 📈 量化金融
 
 | 项目 | 主要用途 | 点评 |
 | --- | --- | --- |
@@ -175,7 +198,7 @@
 
 这些项目用于数据研究、策略验证和风险分析，不构成投资建议。回测结果不代表未来收益，接入实盘前应独立验证数据质量、费用、滑点、流动性和执行风险。
 
-### 加密资讯与多源核验
+### 🛰️ 加密资讯与多源核验
 
 | 网站 | 主要用途 | 信源判断 |
 | --- | --- | --- |
@@ -186,7 +209,7 @@
 
 页面提供“🔀 多源核验”按钮，一键筛出四家媒体供人工对照。它们并不等于一手信源；涉及投资、监管或项目安全的重要消息，应继续回查项目官方公告、监管机构文件、公司披露或可验证的链上数据。AI 可以归纳已有文字，但无法替代对发布时间、原始出处、付费墙上下文和后续更正的人工确认。
 
-### 开源项目
+### 🧩 开源项目
 
 | 网站 | 点评 | 价格 |
 | --- | --- | --- |
@@ -199,7 +222,7 @@
 | [Nextcloud](https://nextcloud.com) | 可自行托管的云端协作方案 | 免费增值 |
 | [Godot](https://godotengine.org) | 轻量、开放的游戏引擎 | 免费 |
 
-### 电影
+### 🎬 电影
 
 | 网站 | 点评 | 价格 |
 | --- | --- | --- |
@@ -210,7 +233,7 @@
 | [MUBI](https://mubi.com) | 偏重策展和艺术电影 | 付费 |
 | [JustWatch](https://www.justwatch.com) | 查询影片在哪个正规平台播放 | 免费 |
 
-### 电视剧
+### 📺 电视剧
 
 | 网站 | 点评 | 价格 |
 | --- | --- | --- |
@@ -221,7 +244,7 @@
 | [Trakt](https://trakt.tv) | 跨平台追剧进度和片单管理 | 免费增值 |
 | [TVmaze](https://www.tvmaze.com) | 剧集日历和单集资料清楚 | 免费 |
 
-### 游戏
+### 🎮 游戏
 
 | 网站 | 点评 | 价格 |
 | --- | --- | --- |

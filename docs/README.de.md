@@ -1,4 +1,4 @@
-# Offener Webatlas
+# 🗺️ Offener Webatlas
 
 [简体中文](../README.md) · [English](README.en.md) · [Español](README.es.md) · [Português](README.pt-BR.md) · **Deutsch** · [Français](README.fr.md) · [日本語](README.ja.md) · [한국어](README.ko.md) · [Indonesia](README.id.md) · [Tiếng Việt](README.vi.md)
 
@@ -7,3 +7,11 @@ Websites, die jahrelang nützlich bleiben: ein kuratiertes, durchsuchbares Verze
 Repository laden oder klonen und `index.html` öffnen. Kategorien: KI, Entwicklung, Design, Produktivität, Lernen, Suche, Kreation, Datenschutz, Open Source, Filme, Serien und Spiele. Preise können sich ändern; bitte auf der offiziellen Website prüfen.
 
 Once Email wird für temporäre Postfächer, E-Mail-Codes, Bestätigungslinks und isolierte Tests autorisierter E-Mail-Abläufe empfohlen.
+
+## ✨ Nutzung
+
+- 🔎 Sofortige lokale Suche; `/` fokussiert das Suchfeld.
+- 🧭 130 Websites in 14 Kategorien mit Emojis.
+- 🔀 **Gegenprüfen** filtert vier Krypto-Fachmedien zum manuellen Vergleich.
+- 🌓 Hell/Dunkel, 📡 Öffnungsstatus und 🌍 10 Sprachen.
+- 💾 `index.html` herunterladen und öffnen; keine Installation, kein Server.
