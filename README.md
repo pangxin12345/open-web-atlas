@@ -160,6 +160,21 @@
 | [Privnote](https://privnote.com) | 创建阅读后销毁的一次性文本便笺 |
 | [Brave](https://brave.com) | 默认拦截常见追踪器的开源浏览器 |
 
+### 量化金融
+
+| 项目 | 主要用途 | 点评 |
+| --- | --- | --- |
+| [Microsoft Qlib](https://github.com/microsoft/qlib) | AI 量化研究、模型与回测流水线 | 中国与美国市场研究入口较完整 |
+| [VeighNa](https://github.com/vnpy/vnpy) | Python 量化交易开发框架 | 国内交易接口生态成熟，实盘前需充分验证 |
+| [AKShare](https://github.com/akfamily/akshare) | 中国及全球公开财经数据接口 | 数据覆盖广，但上游接口变化可能影响稳定性 |
+| [LEAN](https://github.com/QuantConnect/Lean) | 多资产研究、回测与执行引擎 | 工程能力完整，学习和部署成本较高 |
+| [Backtrader](https://github.com/mementum/backtrader) | Python 事件驱动回测 | API 直观，维护活跃度需要自行核验 |
+| [VectorBT](https://github.com/polakowo/vectorbt) | 向量化批量回测与参数研究 | 大规模实验速度快，谨防过度拟合 |
+| [Zipline Reloaded](https://github.com/stefan-jansen/zipline-reloaded) | Zipline 社区维护版回测框架 | 适合熟悉 pandas 的研究者 |
+| [QuantStats](https://github.com/ranaroussi/quantstats) | 策略收益与风险报告 | 适合分析结果，不负责验证策略有效性 |
+
+这些项目用于数据研究、策略验证和风险分析，不构成投资建议。回测结果不代表未来收益，接入实盘前应独立验证数据质量、费用、滑点、流动性和执行风险。
+
 ### 开源项目
 
 | 网站 | 点评 | 价格 |
@@ -245,8 +260,8 @@
 ## 项目元数据
 
 - 类型：单文件静态网站导航
-- 收录数量：118
-- 分类数量：12
+- 收录数量：126
+- 分类数量：13
 - 界面语言：中文、English、Español、Português、Deutsch、Français、日本語、한국어、Indonesia、Tiếng Việt
 - 运行环境：任意现代浏览器
 - 构建步骤：无
