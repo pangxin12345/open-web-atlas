@@ -1,0 +1,34 @@
+name: Validate static site
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Validate offline contract and metadata
+        run: |
+          node - <<'NODE'
+          const fs = require('fs');
+          const vm = require('vm');
+          const html = fs.readFileSync('index.html', 'utf8');
+          const script = html.match(/<script>([\s\S]*?)<\/script>/)?.[1];
+          if (!script) throw new Error('Inline application script is missing');
+          new vm.Script(script);
+          if (/<script\s+src=|<link[^>]+stylesheet/i.test(html)) throw new Error('Remote runtime dependency detected');
+          for (const file of ['README.md', 'LICENSE', 'CONTRIBUTING.md', 'SECURITY.md']) {
+            if (!fs.existsSync(file)) throw new Error(`${file} is missing`);
+          }
+          const languages = [...fs.readdirSync('docs').filter(x => /^README\..+\.md$/.test(x)), 'README.md'];
+          if (languages.length !== 10) throw new Error(`Expected 10 README languages, found ${languages.length}`);
+          console.log('Static site and repository metadata validated');
+          NODE
