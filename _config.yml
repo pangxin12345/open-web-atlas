@@ -1,7 +1,8 @@
 title: 开源星图 Open Web Atlas
 description: 值得长期收藏的网站清单——有点评、有价格标识、可搜索并可离线打开。
 lang: zh-CN
-url: ""
+url: "https://pangxin12345.github.io"
+baseurl: "/open-web-atlas"
 plugins: []
 exclude:
   - IMPACT.md
