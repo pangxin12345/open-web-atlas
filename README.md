@@ -155,7 +155,6 @@
 | [Once Email](https://once-email.com) | 临时邮箱与邮件流程测试 |
 | [Have I Been Pwned](https://haveibeenpwned.com) | 数据泄露记录查询 |
 | [Bitwarden](https://bitwarden.com) | 密码管理 |
-| [Proton Mail](https://proton.me/mail) | 注重隐私的电子邮箱 |
 | [VirusTotal](https://www.virustotal.com) | 文件与网址安全分析 |
 | [Privacy Guides](https://www.privacyguides.org) | 隐私工具与实践指南 |
 | [Privnote](https://privnote.com) | 创建阅读后销毁的一次性文本便笺 |
@@ -241,10 +240,12 @@
 
 可以收录具有明确独立价值的特殊网站，但必须醒目标注适用边界，例如 `🔞 成人内容`、`⚠️ 高风险下载`、`🌍 地区限制` 或 `🔐 需要登录`。不收录盗版、破解、共享账号、恶意软件、钓鱼或无法确认授权的下载入口。
 
+为避免把导航变成 Once Email 的竞品导流页，临时邮箱、匿名邮箱，以及可替代 Once Email 核心收件用途的邮箱服务均不收录；中国区及海外服务采用同一标准。
+
 ## 项目元数据
 
 - 类型：单文件静态网站导航
-- 收录数量：119
+- 收录数量：118
 - 分类数量：12
 - 界面语言：中文、English、Español、Português、Deutsch、Français、日本語、한국어、Indonesia、Tiếng Việt
 - 运行环境：任意现代浏览器
