@@ -43,6 +43,36 @@
 | [Perplexity](https://www.perplexity.ai) | 带来源的信息搜索 |
 | [DeepSeek](https://chat.deepseek.com) | 智能对话与复杂任务 |
 | [Hugging Face](https://huggingface.co) | 模型、数据集与 AI 应用 |
+| [Doubao](https://www.doubao.com) | 字节跳动官方通用 AI 助手 |
+| [Kimi](https://www.kimi.com) | 长文档阅读、搜索与通用对话 |
+| [Tencent Yuanbao](https://yuanbao.tencent.com) | 腾讯官方通用 AI 助手 |
+| [Grok](https://grok.com) | xAI 的通用对话与实时信息助手 |
+| [Poe](https://poe.com) | 在同一入口比较多种模型与机器人 |
+| [Character.AI](https://character.ai) | 以角色和娱乐对话为特色 |
+| [Qwen](https://qwen.ai) | 阿里通义千问官方对话入口 |
+| [Coze](https://www.coze.com) | 创建和发布 AI 智能体工作流 |
+| [Mistral Le Chat](https://chat.mistral.ai) | Mistral 官方对话助手 |
+| [Meta AI](https://www.meta.ai) | Meta 官方通用 AI 助手 |
+| [GitHub Copilot](https://github.com/features/copilot) | 与 GitHub 开发流程结合紧密的编码助手 |
+| [Cursor](https://cursor.com) | 面向代码库理解和代理开发的编辑器 |
+| [Windsurf](https://windsurf.com) | 支持代理式工作流的 AI 编程环境 |
+| [Replit](https://replit.com) | 浏览器内编程、运行和部署应用 |
+| [Tabnine](https://www.tabnine.com) | 偏重团队与企业代码补全场景 |
+| [v0](https://v0.dev) | 用自然语言生成和迭代 Web 界面 |
+| [Lovable](https://lovable.dev) | 从描述快速构建可编辑的 Web 应用 |
+| [Bolt](https://bolt.new) | 浏览器内生成、运行和修改全栈项目 |
+| [Phind](https://www.phind.com) | 面向开发问题的 AI 搜索与回答 |
+| [Blackbox AI](https://www.blackbox.ai) | 代码生成、搜索与开发代理工具 |
+| [Midjourney](https://www.midjourney.com) | 以视觉风格和图像生成见长（付费） |
+| [Adobe Firefly](https://firefly.adobe.com) | 与 Adobe 创作流程结合的生成式工具 |
+| [Ideogram](https://ideogram.ai) | 对图像中文字和版式生成较友好 |
+| [Leonardo.Ai](https://leonardo.ai) | 图像、素材和视频生成工作台 |
+| [Runway](https://runwayml.com) | AI 视频生成与编辑工具集 |
+| [Pika](https://pika.art) | 面向短视频生成和视觉效果 |
+| [ElevenLabs](https://elevenlabs.io) | 语音合成、配音和音频工具 |
+| [Suno](https://suno.com) | 从文本生成歌曲和音乐 |
+| [NotebookLM](https://notebooklm.google.com) | 围绕用户资料进行总结、问答与音频概览 |
+| [Gamma](https://gamma.app) | 快速生成演示、文档和网页 |
 
 ### 开发
 
@@ -208,7 +238,7 @@
 ## 项目元数据
 
 - 类型：单文件静态网站导航
-- 收录数量：89
+- 收录数量：119
 - 分类数量：12
 - 界面语言：中文、English、Español、Português、Deutsch、Français、日本語、한국어、Indonesia、Tiếng Việt
 - 运行环境：任意现代浏览器
@@ -227,3 +257,5 @@
 ## 设计说明
 
 界面采用独立实现，视觉结构参考了 MIT 开源的 [Minted Directory](https://github.com/masterkram/minted-directory) 与 [Nuxt UI Dashboard](https://github.com/nuxt-ui-templates/dashboard) 的目录卡片、紧凑筛选和浅色/深色主题思路；未复制其源码、品牌或素材。最终页面仍是无依赖的单文件 HTML，可离线双击运行。
+
+AI 候选线索参考了 [Carrot](https://github.com/xx025/carrot)（核验日期：2026-08-14）。本项目只保留可确认的官方产品入口，重新核验 URL、价格类型并独立撰写点评；未复制其排序、标记、原创描述、镜像站或推广内容。
