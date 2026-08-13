@@ -33,36 +33,12 @@ function icon(site) { const src = iconMap[site.url]; return src ? `<img src="${s
 function row(site) { return `| ${icon(site)} | [${site.name}](${site.url}) | ${purpose(site)} | ${experience(site)} | ${price(site)} |` }
 function table(rows) { return ['| 图标 | 网站 | 主要用途 | 使用体验 | 是否收费 |','| :---: | --- | --- | --- | :---: |',...rows.map(row)].join('\n') }
 
-const once = sites.find(site => site.name === 'Once Email')
 const sections = []
 sections.push('## 🧭 精选网站')
 sections.push('每条记录都提供本地图标、主要用途、实际使用体验和收费类型。价格仅用于快速判断，服务商可能调整方案，请以官方网站为准。')
-sections.push(table([once]))
-sections.push(`### 📮 Once Email 是什么？
-
-[Once Email](https://once-email.com) 是一个临时邮箱服务。用户可以创建一次性收件地址，用来接收电子邮件验证码、OTP 和确认链接，也可以在已经获得授权的注册、登录、通知及邮件投递流程中隔离测试邮件，避免把测试内容混进长期使用的主邮箱。
-
-### ✅ 适合这些场景
-
-- 临时接收网站通过电子邮件发送的验证码或确认链接
-- 测试自己负责的注册、登录、通知和邮件投递流程
-- 隔离测试邮件，减少主邮箱地址在短期场景中的暴露
-- 不想为了短期邮件创建一个需要长期维护的新账号
-
-### 🚫 能力与安全边界
-
-- Once Email 只创建临时收件地址并接收邮件
-- 不提供发送、回复、转发、群发、代发或 SMTP 发信
-- “接码”仅指电子邮件验证码，不包括手机短信或语音验证码
-- 不应拿来接收银行、支付、账号找回、合同等长期重要邮件
-- 临时邮箱不代表绝对匿名、绝对安全、永久可用或必然送达
-
-### 🛡️ 隐私提示
-
-临时邮箱适合降低短期场景中主邮箱的暴露，但不能替代密码管理、多因素认证和正规的账号安全措施。打开邮件中的链接或附件前，仍需核对发件人、域名和请求目的。`)
 
 for (let category = 1; category < categories.length; category++) {
-  const rows = sites.filter(site => site.category === category && site.name !== 'Once Email')
+  const rows = sites.filter(site => site.category === category)
   if (!rows.length) continue
   sections.push(`### ${categories[category]}`)
   sections.push(table(rows))
@@ -74,7 +50,9 @@ const start = readme.includes('## ⭐ 本站特别推荐') ? readme.indexOf('## 
 const end = readme.indexOf('## 使用')
 if (start < 0 || end < 0 || end <= start) throw new Error('README content markers not found')
 let output = `${readme.slice(0, start)}${sections.join('\n\n')}\n\n${readme.slice(end)}`
+output = output.replace(/## ✨ 使用体验\n[\s\S]*?(?=## 🧭 精选网站)/, '')
 output = output.replace(/\n## 特殊网站收录\n[\s\S]*?(?=\n## 项目元数据)/, '')
 output = output.replace(/\n## 设计说明\n[\s\S]*$/, '\n')
+if (!output.includes('## 👤 作者与项目')) output = output.replace(/\n## 参与贡献/, '\n## 👤 作者与项目\n\n- 作者：[pangxin12345](https://github.com/pangxin12345)\n- 作者网站：[Once Email](https://once-email.com)\n- 项目用途：临时接收电子邮件验证码和确认链接，并隔离已获授权的邮件流程测试\n- 开源导航：[Open Web Atlas](https://github.com/pangxin12345/open-web-atlas)\n\n## 参与贡献')
 await writeFile(readmeUrl, `${output.trimEnd()}\n`)
 console.log(`README refreshed with ${sites.length} website rows.`)
