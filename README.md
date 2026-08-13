@@ -166,6 +166,11 @@
 | [HowLongToBeat](https://howlongtobeat.com) | 估算通关时间，适合管理待玩清单 | 免费 |
 | [PCGamingWiki](https://www.pcgamingwiki.com) | PC 游戏兼容与修复资料实用 | 免费 |
 | [Backloggd](https://www.backloggd.com) | 记录、评分和整理游戏经历 | 免费 |
+| [VNDB](https://vndb.org) | 视觉小说资料库，适合查作品、版本和制作人员 | 免费 |
+| [JAST USA](https://jastusa.com) | 正版英文视觉小说发行与商店 | 付费 |
+| [MangaGamer](https://www.mangagamer.com) | 正版视觉小说本地化与发行平台 | 付费 |
+| [DLsite](https://www.dlsite.com) | 日本数字创作与游戏正规销售平台 | 付费 |
+| [Sekai Project](https://sekaiproject.com) | 视觉小说本地化与国际发行商 | 付费 |
 
 ## 使用
 
@@ -193,7 +198,7 @@
 ## 项目元数据
 
 - 类型：单文件静态网站导航
-- 收录数量：74
+- 收录数量：79
 - 分类数量：12
 - 界面语言：中文、English、Español、Português、Deutsch、Français、日本語、한국어、Indonesia、Tiếng Việt
 - 运行环境：任意现代浏览器
@@ -208,3 +213,7 @@
 欢迎提交 Issue 或 Pull Request 推荐网站。请说明网站解决的具体问题、价格模式、推荐理由和官方网站；不接受付费买排名、镜像站、诱导下载、盗版影视或用途不清的批量链接。
 
 本项目采用 [MIT License](LICENSE) 开源。
+
+## 设计说明
+
+界面采用独立实现，视觉结构参考了 MIT 开源的 [Minted Directory](https://github.com/masterkram/minted-directory) 与 [Nuxt UI Dashboard](https://github.com/nuxt-ui-templates/dashboard) 的目录卡片、紧凑筛选和浅色/深色主题思路；未复制其源码、品牌或素材。最终页面仍是无依赖的单文件 HTML，可离线双击运行。
