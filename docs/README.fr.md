@@ -6,6 +6,14 @@
 
 [🌐 Open Web Atlas](https://pangxin12345.github.io/open-web-atlas/)
 
+## 💡 Pourquoi cet annuaire
+
+Open Web Atlas privilégie les sites officiels et les tâches utiles plutôt que le nombre de liens. Les avis orientent sans garantir la sécurité ; vérifiez prix et fonctions sur le site officiel.
+
+## 🏷️ Comment le lire
+
+⭐ usage durable · 👍 à essayer · 🎯 usage précis · 🆓 gratuit · 🟢 freemium · 💳 payant
+
 <a id="ai"></a>
 <details open>
 <summary><strong>🤖 Assistants IA · 36</strong></summary>

@@ -90,8 +90,19 @@ const locales = {
 }
 
 const languageLinks='[简体中文](../README.md) · [English](README.en.md) · [Español](README.es.md) · [Português](README.pt-BR.md) · [Deutsch](README.de.md) · [Français](README.fr.md) · [日本語](README.ja.md) · [한국어](README.ko.md) · [Indonesia](README.id.md) · [Tiếng Việt](README.vi.md)'
+const localeContext={
+en:['Why this directory','Open Web Atlas favors official destinations and websites that solve a clear task instead of chasing the longest list. Ratings are editorial shortcuts, not security guarantees; pricing and capabilities should be verified on the official site.','How to read it','⭐ long-term choice · 👍 worth trying · 🎯 specific use · 🆓 free · 🟢 freemium · 💳 paid'],
+es:['Por qué existe','Open Web Atlas prioriza sitios oficiales y tareas claras, no la lista más larga. Las valoraciones orientan, pero no garantizan seguridad; confirma precio y funciones en el sitio oficial.','Cómo leerlo','⭐ uso a largo plazo · 👍 vale la pena · 🎯 uso específico · 🆓 gratis · 🟢 freemium · 💳 de pago'],
+pt:['Por que existe','O Open Web Atlas prioriza destinos oficiais e tarefas claras, não a lista mais longa. As avaliações orientam, mas não garantem segurança; confirme preço e recursos no site oficial.','Como ler','⭐ uso duradouro · 👍 vale testar · 🎯 uso específico · 🆓 grátis · 🟢 freemium · 💳 pago'],
+de:['Warum dieses Verzeichnis','Open Web Atlas bevorzugt offizielle Ziele und klar nützliche Websites statt möglichst vieler Links. Bewertungen sind Orientierung, keine Sicherheitsgarantie; Preise und Funktionen bitte offiziell prüfen.','Legende','⭐ langfristig · 👍 ausprobieren · 🎯 spezieller Einsatz · 🆓 kostenlos · 🟢 Freemium · 💳 kostenpflichtig'],
+fr:['Pourquoi cet annuaire','Open Web Atlas privilégie les sites officiels et les tâches utiles plutôt que le nombre de liens. Les avis orientent sans garantir la sécurité ; vérifiez prix et fonctions sur le site officiel.','Comment le lire','⭐ usage durable · 👍 à essayer · 🎯 usage précis · 🆓 gratuit · 🟢 freemium · 💳 payant'],
+ja:['このディレクトリの目的','Open Web Atlasはリンク数ではなく、公式入口と明確な用途を優先します。評価は目安であり安全保証ではありません。料金と機能は公式サイトで確認してください。','表示の見方','⭐ 長期利用向け · 👍 試す価値あり · 🎯 特定用途 · 🆓 無料 · 🟢 フリーミアム · 💳 有料'],
+ko:['이 디렉터리의 목적','Open Web Atlas는 링크 수보다 공식 사이트와 명확한 용도를 우선합니다. 평가는 참고 정보이며 보안 보장이 아닙니다. 가격과 기능은 공식 사이트에서 확인하세요.','표시 읽기','⭐ 장기 사용 · 👍 시도할 만함 · 🎯 특정 용도 · 🆓 무료 · 🟢 부분 유료 · 💳 유료'],
+id:['Mengapa direktori ini','Open Web Atlas mengutamakan situs resmi dan tugas yang jelas, bukan jumlah tautan. Penilaian adalah panduan, bukan jaminan keamanan; cek harga dan fitur di situs resmi.','Cara membaca','⭐ pilihan jangka panjang · 👍 layak dicoba · 🎯 kebutuhan khusus · 🆓 gratis · 🟢 freemium · 💳 berbayar'],
+vi:['Vì sao có danh mục này','Open Web Atlas ưu tiên trang chính thức và nhiệm vụ rõ ràng thay vì số lượng liên kết. Đánh giá chỉ để tham khảo, không bảo đảm an toàn; hãy kiểm tra giá và tính năng trên trang chính thức.','Cách đọc','⭐ dùng lâu dài · 👍 đáng thử · 🎯 nhu cầu cụ thể · 🆓 miễn phí · 🟢 freemium · 💳 trả phí']}
 for(const locale of Object.values(locales)){
-  const parts=[`# 🗺️ ${locale.title}`,languageLinks,locale.intro,'[🌐 Open Web Atlas](https://pangxin12345.github.io/open-web-atlas/)']
+  const key=Object.keys(locales).find(key=>locales[key]===locale),context=localeContext[key]
+  const parts=[`# 🗺️ ${locale.title}`,languageLinks,locale.intro,'[🌐 Open Web Atlas](https://pangxin12345.github.io/open-web-atlas/)',`## 💡 ${context[0]}\n\n${context[1]}`,`## 🏷️ ${context[2]}\n\n${context[3]}`]
   for(let category=1;category<categories.length;category++){
     const rows=sites.filter(site=>site.category===category)
     const rendered=rows.map(site=>{const rank=star.has(site.name)?0:niche.has(site.name)?2:1;const tier=paid.has(site.name)?2:freemium.has(site.name)?1:0;return `| ${icon(site).replace('src="icons/','src="../icons/')} | [${site.name}](${site.url}) | ${locale.uses[category-1]} | ${locale.exp[rank]} | ${locale.prices[tier]} |`})

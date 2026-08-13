@@ -6,6 +6,14 @@
 
 [🌐 Open Web Atlas](https://pangxin12345.github.io/open-web-atlas/)
 
+## 💡 Mengapa direktori ini
+
+Open Web Atlas mengutamakan situs resmi dan tugas yang jelas, bukan jumlah tautan. Penilaian adalah panduan, bukan jaminan keamanan; cek harga dan fitur di situs resmi.
+
+## 🏷️ Cara membaca
+
+⭐ pilihan jangka panjang · 👍 layak dicoba · 🎯 kebutuhan khusus · 🆓 gratis · 🟢 freemium · 💳 berbayar
+
 <a id="ai"></a>
 <details open>
 <summary><strong>🤖 Asisten AI · 36</strong></summary>

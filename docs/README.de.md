@@ -6,6 +6,14 @@
 
 [🌐 Open Web Atlas](https://pangxin12345.github.io/open-web-atlas/)
 
+## 💡 Warum dieses Verzeichnis
+
+Open Web Atlas bevorzugt offizielle Ziele und klar nützliche Websites statt möglichst vieler Links. Bewertungen sind Orientierung, keine Sicherheitsgarantie; Preise und Funktionen bitte offiziell prüfen.
+
+## 🏷️ Legende
+
+⭐ langfristig · 👍 ausprobieren · 🎯 spezieller Einsatz · 🆓 kostenlos · 🟢 Freemium · 💳 kostenpflichtig
+
 <a id="ai"></a>
 <details open>
 <summary><strong>🤖 KI-Assistenten · 36</strong></summary>

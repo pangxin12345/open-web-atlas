@@ -6,6 +6,14 @@
 
 [🌐 Open Web Atlas](https://pangxin12345.github.io/open-web-atlas/)
 
+## 💡 このディレクトリの目的
+
+Open Web Atlasはリンク数ではなく、公式入口と明確な用途を優先します。評価は目安であり安全保証ではありません。料金と機能は公式サイトで確認してください。
+
+## 🏷️ 表示の見方
+
+⭐ 長期利用向け · 👍 試す価値あり · 🎯 特定用途 · 🆓 無料 · 🟢 フリーミアム · 💳 有料
+
 <a id="ai"></a>
 <details open>
 <summary><strong>🤖 AIアシスタント · 36</strong></summary>

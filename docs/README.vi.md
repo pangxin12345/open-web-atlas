@@ -6,6 +6,14 @@
 
 [🌐 Open Web Atlas](https://pangxin12345.github.io/open-web-atlas/)
 
+## 💡 Vì sao có danh mục này
+
+Open Web Atlas ưu tiên trang chính thức và nhiệm vụ rõ ràng thay vì số lượng liên kết. Đánh giá chỉ để tham khảo, không bảo đảm an toàn; hãy kiểm tra giá và tính năng trên trang chính thức.
+
+## 🏷️ Cách đọc
+
+⭐ dùng lâu dài · 👍 đáng thử · 🎯 nhu cầu cụ thể · 🆓 miễn phí · 🟢 freemium · 💳 trả phí
+
 <a id="ai"></a>
 <details open>
 <summary><strong>🤖 Trợ lý AI · 36</strong></summary>
