@@ -28,9 +28,20 @@
 
 ## 🧭 精选网站
 
-每条记录都提供本地图标、主要用途、实际使用体验和收费类型。价格仅用于快速判断，服务商可能调整方案，请以官方网站为准。
+每条记录都提供本地图标、主要用途、实际使用体验和收费类型。点击分类即可展开；价格仅用于快速判断，服务商可能调整方案，请以官方网站为准。
 
-### 🤖 AI 助手
+### 📚 分类导航
+
+| | | | |
+| --- | --- | --- | --- |
+| [🤖 AI 助手](#ai) | [💻 开发](#development) | [🎨 设计](#design) | [⚡ 效率](#productivity) |
+| [📚 学习](#learning) | [🔎 搜索](#search) | [✨ 创作](#creation) | [🛡️ 隐私安全](#privacy) |
+| [🧩 开源项目](#open-source) | [🎬 电影](#movies) | [📺 电视剧](#tv) | [🎮 游戏](#games) |
+| [📈 量化金融](#quant) | [🛰️ 加密资讯](#crypto-news) | [👤 作者](#-作者与项目) | [🤝 参与贡献](#参与贡献) |
+
+<a id="ai"></a>
+<details>
+<summary><strong>🤖 AI 助手 · 36 个</strong></summary>
 
 | 图标 | 网站 | 主要用途 | 使用体验 | 是否收费 |
 | :---: | --- | --- | --- | :---: |
@@ -71,7 +82,11 @@
 | <img src="icons/8e7993ff71bcc30e.png" width="24" height="24" alt="NotebookLM 图标"> | [NotebookLM](https://notebooklm.google.com) | 围绕用户资料进行总结、问答与音频概览 | ⭐ 成熟稳定，适合长期使用 | 🟢 免费增值 |
 | <img src="icons/c4f21000c0090551.png" width="24" height="24" alt="Gamma 图标"> | [Gamma](https://gamma.app) | 快速生成演示、文档和网页 | 👍 上手顺畅，值得按需尝试 | 🟢 免费增值 |
 
-### 💻 开发
+</details>
+
+<a id="development"></a>
+<details>
+<summary><strong>💻 开发 · 6 个</strong></summary>
 
 | 图标 | 网站 | 主要用途 | 使用体验 | 是否收费 |
 | :---: | --- | --- | --- | :---: |
@@ -82,7 +97,11 @@
 | <img src="icons/23660938c95e5df8.png" width="24" height="24" alt="Cloudflare 图标"> | [Cloudflare](https://www.cloudflare.com) | 网络、性能与安全服务 | 👍 上手顺畅，值得按需尝试 | 🟢 免费增值 |
 | <img src="icons/f11a81ecfd59b393.png" width="24" height="24" alt="CodePen 图标"> | [CodePen](https://codepen.io) | 前端代码演示与实验 | 👍 上手顺畅，值得按需尝试 | 🆓 免费 |
 
-### 🎨 设计
+</details>
+
+<a id="design"></a>
+<details>
+<summary><strong>🎨 设计 · 6 个</strong></summary>
 
 | 图标 | 网站 | 主要用途 | 使用体验 | 是否收费 |
 | :---: | --- | --- | --- | :---: |
@@ -93,7 +112,11 @@
 | <img src="icons/1557d6500f286e52.png" width="24" height="24" alt="Coolors 图标"> | [Coolors](https://coolors.co) | 配色方案生成 | 👍 上手顺畅，值得按需尝试 | 🆓 免费 |
 | <img src="icons/75ecf91b7063558c.png" width="24" height="24" alt="Google Fonts 图标"> | [Google Fonts](https://fonts.google.com) | 开放字体资源 | 👍 上手顺畅，值得按需尝试 | 🆓 免费 |
 
-### ⚡ 效率
+</details>
+
+<a id="productivity"></a>
+<details>
+<summary><strong>⚡ 效率 · 6 个</strong></summary>
 
 | 图标 | 网站 | 主要用途 | 使用体验 | 是否收费 |
 | :---: | --- | --- | --- | :---: |
@@ -104,7 +127,11 @@
 | <img src="icons/27d5316a7bd89304.png" width="24" height="24" alt="Google Drive 图标"> | [Google Drive](https://drive.google.com) | 云端文件与协作 | 👍 上手顺畅，值得按需尝试 | 🟢 免费增值 |
 | <img src="icons/e4198d124cec5eec.png" width="24" height="24" alt="Calendly 图标"> | [Calendly](https://calendly.com) | 日程预约与协调 | 👍 上手顺畅，值得按需尝试 | 🟢 免费增值 |
 
-### 📚 学习
+</details>
+
+<a id="learning"></a>
+<details>
+<summary><strong>📚 学习 · 8 个</strong></summary>
 
 | 图标 | 网站 | 主要用途 | 使用体验 | 是否收费 |
 | :---: | --- | --- | --- | :---: |
@@ -117,7 +144,11 @@
 | <img src="icons/facc0c553f8f4e4a.png" width="24" height="24" alt="Project Gutenberg 图标"> | [Project Gutenberg](https://www.gutenberg.org) | 免费阅读和下载公共领域电子书 | ⭐ 成熟稳定，适合长期使用 | 🆓 免费 |
 | <img src="icons/5f38fbaf598bd08d.png" width="24" height="24" alt="Radio Garden 图标"> | [Radio Garden](https://radio.garden) | 通过地球仪探索世界各地直播电台 | 👍 上手顺畅，值得按需尝试 | 🆓 免费 |
 
-### 🔎 搜索
+</details>
+
+<a id="search"></a>
+<details>
+<summary><strong>🔎 搜索 · 9 个</strong></summary>
 
 | 图标 | 网站 | 主要用途 | 使用体验 | 是否收费 |
 | :---: | --- | --- | --- | :---: |
@@ -131,7 +162,11 @@
 | <img src="icons/27da773ed21e0bbc.png" width="24" height="24" alt="Flightradar24 图标"> | [Flightradar24](https://www.flightradar24.com) | 查询实时航班位置和飞行信息 | 👍 上手顺畅，值得按需尝试 | 🟢 免费增值 |
 | <img src="icons/4526c8080aa0b5fd.png" width="24" height="24" alt="trace.moe 图标"> | [trace.moe](https://trace.moe) | 用动画截图反查作品与出现时间 | 🎯 适合特定场景，先确认限制 | 🆓 免费 |
 
-### ✨ 创作
+</details>
+
+<a id="creation"></a>
+<details>
+<summary><strong>✨ 创作 · 9 个</strong></summary>
 
 | 图标 | 网站 | 主要用途 | 使用体验 | 是否收费 |
 | :---: | --- | --- | --- | :---: |
@@ -145,7 +180,11 @@
 | <img src="icons/ebb04b1cfaffb0fc.png" width="24" height="24" alt="Cleanup.pictures 图标"> | [Cleanup.pictures](https://cleanup.pictures) | 快速移除图片中的物体、人物或瑕疵 | 👍 上手顺畅，值得按需尝试 | 🟢 免费增值 |
 | <img src="icons/3a13c21dedf5e9c4.png" width="24" height="24" alt="TinyWow 图标"> | [TinyWow](https://tinywow.com) | 聚合 PDF、图片、视频和写作小工具 | 👍 上手顺畅，值得按需尝试 | 🟢 免费增值 |
 
-### 🛡️ 隐私与安全
+</details>
+
+<a id="privacy"></a>
+<details>
+<summary><strong>🛡️ 隐私与安全 · 7 个</strong></summary>
 
 | 图标 | 网站 | 主要用途 | 使用体验 | 是否收费 |
 | :---: | --- | --- | --- | :---: |
@@ -157,7 +196,11 @@
 | <img src="icons/2aca408098d3d53d.png" width="24" height="24" alt="Privnote 图标"> | [Privnote](https://privnote.com) | 创建阅读后销毁的一次性文本便笺 | 🎯 适合特定场景，先确认限制 | 🆓 免费 |
 | <img src="icons/becebdd01012941f.png" width="24" height="24" alt="Brave 图标"> | [Brave](https://brave.com) | 默认拦截常见追踪器的开源浏览器 | ⭐ 成熟稳定，适合长期使用 | 🆓 免费 |
 
-### 🧩 开源项目
+</details>
+
+<a id="open-source"></a>
+<details>
+<summary><strong>🧩 开源项目 · 8 个</strong></summary>
 
 | 图标 | 网站 | 主要用途 | 使用体验 | 是否收费 |
 | :---: | --- | --- | --- | :---: |
@@ -170,7 +213,11 @@
 | <img src="icons/e69d64e782a70f83.png" width="24" height="24" alt="Nextcloud 图标"> | [Nextcloud](https://nextcloud.com) | 可自行托管的云端协作方案 | 👍 上手顺畅，值得按需尝试 | 🆓 免费 |
 | <img src="icons/b6ebf74696c4482c.png" width="24" height="24" alt="Godot 图标"> | [Godot](https://godotengine.org) | 轻量、开放的游戏引擎 | 👍 上手顺畅，值得按需尝试 | 🆓 免费 |
 
-### 🎬 电影
+</details>
+
+<a id="movies"></a>
+<details>
+<summary><strong>🎬 电影 · 6 个</strong></summary>
 
 | 图标 | 网站 | 主要用途 | 使用体验 | 是否收费 |
 | :---: | --- | --- | --- | :---: |
@@ -181,7 +228,11 @@
 | <img src="icons/103f9633818bc6b7.png" width="24" height="24" alt="MUBI 图标"> | [MUBI](https://mubi.com) | 偏重策展和艺术电影 | 🎯 适合特定场景，先确认限制 | 💳 付费 |
 | <img src="icons/4178fce32318b4ae.png" width="24" height="24" alt="JustWatch Movies 图标"> | [JustWatch Movies](https://www.justwatch.com) | 查询影片在哪个正规平台播放 | ⭐ 成熟稳定，适合长期使用 | 🆓 免费 |
 
-### 📺 电视剧
+</details>
+
+<a id="tv"></a>
+<details>
+<summary><strong>📺 电视剧 · 6 个</strong></summary>
 
 | 图标 | 网站 | 主要用途 | 使用体验 | 是否收费 |
 | :---: | --- | --- | --- | :---: |
@@ -192,7 +243,11 @@
 | <img src="icons/21ecebd280810ad4.png" width="24" height="24" alt="Trakt 图标"> | [Trakt](https://trakt.tv) | 跨平台追剧进度和片单管理 | 👍 上手顺畅，值得按需尝试 | 🟢 免费增值 |
 | <img src="icons/5fac16d7a4bd1906.png" width="24" height="24" alt="TVmaze 图标"> | [TVmaze](https://www.tvmaze.com) | 剧集日历和单集资料清楚 | 🎯 适合特定场景，先确认限制 | 🆓 免费 |
 
-### 🎮 游戏
+</details>
+
+<a id="games"></a>
+<details>
+<summary><strong>🎮 游戏 · 11 个</strong></summary>
 
 | 图标 | 网站 | 主要用途 | 使用体验 | 是否收费 |
 | :---: | --- | --- | --- | :---: |
@@ -208,7 +263,11 @@
 | <img src="icons/c0ec9360f53baea0.png" width="24" height="24" alt="DLsite 图标"> | [DLsite](https://www.dlsite.com) | 日本数字创作与游戏正规销售平台 | 🎯 适合特定场景，先确认限制 | 💳 付费 |
 | <img src="icons/81d14046788f5840.png" width="24" height="24" alt="Sekai Project 图标"> | [Sekai Project](https://sekaiproject.com) | 视觉小说本地化与国际发行商 | 🎯 适合特定场景，先确认限制 | 💳 付费 |
 
-### 📈 量化金融
+</details>
+
+<a id="quant"></a>
+<details>
+<summary><strong>📈 量化金融 · 8 个</strong></summary>
 
 | 图标 | 网站 | 主要用途 | 使用体验 | 是否收费 |
 | :---: | --- | --- | --- | :---: |
@@ -221,9 +280,13 @@
 | <img src="icons/d0eb137f8c8aef34.png" width="24" height="24" alt="Zipline Reloaded 图标"> | [Zipline Reloaded](https://github.com/stefan-jansen/zipline-reloaded) | Zipline 社区维护版回测框架 | 适合熟悉 pandas 的研究者 | 🆓 免费 |
 | <img src="icons/0b47282c5f42f07c.png" width="24" height="24" alt="QuantStats 图标"> | [QuantStats](https://github.com/ranaroussi/quantstats) | 策略收益与风险报告 | 适合分析结果，不负责验证策略有效性 | 🆓 免费 |
 
-这些项目用于数据研究、策略验证和风险分析，不构成投资建议。回测结果不代表未来收益，接入实盘前应独立验证数据质量、费用、滑点、流动性和执行风险。
+> 📌 这些项目用于数据研究、策略验证和风险分析，不构成投资建议。回测结果不代表未来收益。
 
-### 🛰️ 加密资讯与多源核验
+</details>
+
+<a id="crypto-news"></a>
+<details>
+<summary><strong>🛰️ 加密资讯与多源核验 · 4 个</strong></summary>
 
 | 图标 | 网站 | 主要用途 | 使用体验 | 是否收费 |
 | :---: | --- | --- | --- | :---: |
@@ -232,7 +295,9 @@
 | <img src="icons/99be0c4bd636cdce.png" width="24" height="24" alt="PANews 图标"> | [PANews](https://www.panewslab.com) | 政策、数据、融资、研报和事件日历 | 聚合与原创并存，需查看文章署名来源 | 🆓 免费 |
 | <img src="icons/23d855b2ed4f7005.png" width="24" height="24" alt="Foresight News 图标"> | [Foresight News](https://foresightnews.pro) | 新叙事、新资产和 RWA 动态 | 专业媒体/二手信源 | 🆓 免费 |
 
-页面提供“🔀 多源核验”按钮，一键筛出四家媒体供人工对照。它们并不等于一手信源；重要消息应继续回查项目公告、监管文件、公司披露或可验证的链上数据。
+> 🔀 可在网页点击“多源核验”筛出四家媒体。它们属于专业媒体或二手信源，重要消息仍应回查原始资料。
+
+</details>
 
 ## 使用
 

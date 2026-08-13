@@ -23,6 +23,7 @@ const niche = new Set(['Character.AI','Coze','Meta AI','Tabnine','Blackbox AI','
 const paid = new Set(['MUBI','Netflix','Disney+','Prime Video','Apple TV+','JAST USA','MangaGamer','DLsite','Sekai Project','Midjourney'])
 const freemium = new Set(['ChatGPT','Claude','Gemini','Perplexity','Hugging Face','Vercel','Cloudflare','Figma','Canva','Notion','Trello','Todoist','Google Drive','Calendly','Coursera','edX','Remove.bg','Descript','Bitwarden','GitHub','Letterboxd','Trakt','Steam','GOG','Cleanup.pictures','TinyWow','Flightradar24','Doubao','Kimi','Tencent Yuanbao','Grok','Poe','Character.AI','Qwen','Coze','Mistral Le Chat','Meta AI','GitHub Copilot','Cursor','Windsurf','Replit','Tabnine','v0','Lovable','Bolt','Phind','Blackbox AI','Adobe Firefly','Ideogram','Leonardo.Ai','Runway','Pika','ElevenLabs','Suno','NotebookLM','Gamma','The Block'])
 const categories = ['','🤖 AI 助手','💻 开发','🎨 设计','⚡ 效率','📚 学习','🔎 搜索','✨ 创作','🛡️ 隐私与安全','🧩 开源项目','🎬 电影','📺 电视剧','🎮 游戏','📈 量化金融','🛰️ 加密资讯与多源核验']
+const categoryIds = ['','ai','development','design','productivity','learning','search','creation','privacy','open-source','movies','tv','games','quant','crypto-news']
 const fallbackPurpose = ['','智能对话、创作或辅助决策','代码、文档与部署','视觉设计与灵感','任务与协作效率','学习、查证与研究','查找可靠信息','文字、图片、音视频创作','隐私与安全工具','开放源码工具与项目','电影资料与正规观看信息','剧集发现与进度管理','游戏购买、资料与记录','金融数据、研究、回测与风险分析','专业媒体与二手信源交叉核验']
 
 function normalized(url) { return url.replace(/\/$/, '') }
@@ -35,15 +36,24 @@ function table(rows) { return ['| 图标 | 网站 | 主要用途 | 使用体验 
 
 const sections = []
 sections.push('## 🧭 精选网站')
-sections.push('每条记录都提供本地图标、主要用途、实际使用体验和收费类型。价格仅用于快速判断，服务商可能调整方案，请以官方网站为准。')
+sections.push('每条记录都提供本地图标、主要用途、实际使用体验和收费类型。点击分类即可展开；价格仅用于快速判断，服务商可能调整方案，请以官方网站为准。')
+sections.push(`### 📚 分类导航
+
+| | | | |
+| --- | --- | --- | --- |
+| [🤖 AI 助手](#ai) | [💻 开发](#development) | [🎨 设计](#design) | [⚡ 效率](#productivity) |
+| [📚 学习](#learning) | [🔎 搜索](#search) | [✨ 创作](#creation) | [🛡️ 隐私安全](#privacy) |
+| [🧩 开源项目](#open-source) | [🎬 电影](#movies) | [📺 电视剧](#tv) | [🎮 游戏](#games) |
+| [📈 量化金融](#quant) | [🛰️ 加密资讯](#crypto-news) | [👤 作者](#-作者与项目) | [🤝 参与贡献](#参与贡献) |`)
 
 for (let category = 1; category < categories.length; category++) {
   const rows = sites.filter(site => site.category === category)
   if (!rows.length) continue
-  sections.push(`### ${categories[category]}`)
-  sections.push(table(rows))
-  if (category === 13) sections.push('这些项目用于数据研究、策略验证和风险分析，不构成投资建议。回测结果不代表未来收益，接入实盘前应独立验证数据质量、费用、滑点、流动性和执行风险。')
-  if (category === 14) sections.push('页面提供“🔀 多源核验”按钮，一键筛出四家媒体供人工对照。它们并不等于一手信源；重要消息应继续回查项目公告、监管文件、公司披露或可验证的链上数据。')
+  const block = [`<a id="${categoryIds[category]}"></a>`,`<details>`,`<summary><strong>${categories[category]} · ${rows.length} 个</strong></summary>`,'',table(rows)]
+  if (category === 13) block.push('','> 📌 这些项目用于数据研究、策略验证和风险分析，不构成投资建议。回测结果不代表未来收益。')
+  if (category === 14) block.push('','> 🔀 可在网页点击“多源核验”筛出四家媒体。它们属于专业媒体或二手信源，重要消息仍应回查原始资料。')
+  block.push('','</details>')
+  sections.push(block.join('\n'))
 }
 
 const start = readme.includes('## ⭐ 本站特别推荐') ? readme.indexOf('## ⭐ 本站特别推荐') : readme.indexOf('## 🧭 精选网站')
