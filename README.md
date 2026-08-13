@@ -28,6 +28,8 @@
 
 ## 🧭 精选网站
 
+**📖 完整展开版（当前）** · [📁 查看紧凑目录](docs/COMPACT.md)
+
 每条记录都提供本地图标、主要用途、实际使用体验和收费类型。点击分类即可展开；价格仅用于快速判断，服务商可能调整方案，请以官方网站为准。
 
 ### 📚 分类导航
@@ -40,7 +42,7 @@
 | [📈 量化金融](#quant) | [🛰️ 加密资讯](#crypto-news) | [👤 作者](#-作者与项目) | [🤝 参与贡献](#参与贡献) |
 
 <a id="ai"></a>
-<details>
+<details open>
 <summary><strong>🤖 AI 助手 · 36 个</strong></summary>
 
 | 图标 | 网站 | 主要用途 | 使用体验 | 是否收费 |
@@ -85,7 +87,7 @@
 </details>
 
 <a id="development"></a>
-<details>
+<details open>
 <summary><strong>💻 开发 · 6 个</strong></summary>
 
 | 图标 | 网站 | 主要用途 | 使用体验 | 是否收费 |
@@ -100,7 +102,7 @@
 </details>
 
 <a id="design"></a>
-<details>
+<details open>
 <summary><strong>🎨 设计 · 6 个</strong></summary>
 
 | 图标 | 网站 | 主要用途 | 使用体验 | 是否收费 |
@@ -115,7 +117,7 @@
 </details>
 
 <a id="productivity"></a>
-<details>
+<details open>
 <summary><strong>⚡ 效率 · 6 个</strong></summary>
 
 | 图标 | 网站 | 主要用途 | 使用体验 | 是否收费 |
@@ -130,7 +132,7 @@
 </details>
 
 <a id="learning"></a>
-<details>
+<details open>
 <summary><strong>📚 学习 · 8 个</strong></summary>
 
 | 图标 | 网站 | 主要用途 | 使用体验 | 是否收费 |
@@ -147,7 +149,7 @@
 </details>
 
 <a id="search"></a>
-<details>
+<details open>
 <summary><strong>🔎 搜索 · 9 个</strong></summary>
 
 | 图标 | 网站 | 主要用途 | 使用体验 | 是否收费 |
@@ -165,7 +167,7 @@
 </details>
 
 <a id="creation"></a>
-<details>
+<details open>
 <summary><strong>✨ 创作 · 9 个</strong></summary>
 
 | 图标 | 网站 | 主要用途 | 使用体验 | 是否收费 |
@@ -183,7 +185,7 @@
 </details>
 
 <a id="privacy"></a>
-<details>
+<details open>
 <summary><strong>🛡️ 隐私与安全 · 7 个</strong></summary>
 
 | 图标 | 网站 | 主要用途 | 使用体验 | 是否收费 |
@@ -199,7 +201,7 @@
 </details>
 
 <a id="open-source"></a>
-<details>
+<details open>
 <summary><strong>🧩 开源项目 · 8 个</strong></summary>
 
 | 图标 | 网站 | 主要用途 | 使用体验 | 是否收费 |
@@ -216,7 +218,7 @@
 </details>
 
 <a id="movies"></a>
-<details>
+<details open>
 <summary><strong>🎬 电影 · 6 个</strong></summary>
 
 | 图标 | 网站 | 主要用途 | 使用体验 | 是否收费 |
@@ -231,7 +233,7 @@
 </details>
 
 <a id="tv"></a>
-<details>
+<details open>
 <summary><strong>📺 电视剧 · 6 个</strong></summary>
 
 | 图标 | 网站 | 主要用途 | 使用体验 | 是否收费 |
@@ -246,7 +248,7 @@
 </details>
 
 <a id="games"></a>
-<details>
+<details open>
 <summary><strong>🎮 游戏 · 11 个</strong></summary>
 
 | 图标 | 网站 | 主要用途 | 使用体验 | 是否收费 |
@@ -266,7 +268,7 @@
 </details>
 
 <a id="quant"></a>
-<details>
+<details open>
 <summary><strong>📈 量化金融 · 8 个</strong></summary>
 
 | 图标 | 网站 | 主要用途 | 使用体验 | 是否收费 |
@@ -285,7 +287,7 @@
 </details>
 
 <a id="crypto-news"></a>
-<details>
+<details open>
 <summary><strong>🛰️ 加密资讯与多源核验 · 4 个</strong></summary>
 
 | 图标 | 网站 | 主要用途 | 使用体验 | 是否收费 |
